@@ -13,7 +13,7 @@ const backBtn = document.getElementById("backBtn");
 if (currentPage.includes("more") && backBtn) {
     if (from === "web-design") backBtn.href = "web-design.html";
     else if (from === "management") backBtn.href = "management.html";
-    else backBtn.href = "home.html";
+    else backBtn.href = "index.html";
 }
 
 // ===============================
