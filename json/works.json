@@ -1,0 +1,14 @@
+[
+    { "id": "web01", "img": "./img/coming-soon.png", "title": "", "category": "web", "type": "hp", "isNew": true, "url": "https://github.com/" },
+    { "id": "web02", "img": "./img/coming-soon.png", "title": "", "category": "web", "type": "hp", "isNew": true, "url": "" },
+    { "id": "web03", "img": "./img/coming-soon.png", "title": "", "category": "web", "type": "hp", "isNew": true, "url": "" },
+    { "id": "web04", "img": "./img/coming-soon.png", "title": "", "category": "web", "type": "hp", "isNew": true, "url": "" },
+    { "id": "web05", "img": "./img/coming-soon.png", "title": "", "category": "web", "type": "app", "isNew": true, "url": "" },
+    { "id": "web06", "img": "./img/coming-soon.png", "title": "", "category": "web", "type": "backend", "isNew": true, "url": "" },
+    { "id": "web07", "img": "./img/coming-soon.png", "title": "", "category": "web", "type": "design", "isNew": true, "url": "" },
+    { "id": "mgt01", "img": "./img/coming-soon.png", "title": "", "category": "management", "type": "brd", "isNew": true, "url": "" },
+    { "id": "mgt02", "img": "./img/coming-soon.png", "title": "", "category": "management", "type": "ddd", "isNew": true, "url": "" },
+    { "id": "mgt03", "img": "./img/coming-soon.png", "title": "", "category": "management", "type": "excel", "isNew": true, "url": "" },
+    { "id": "mgt04", "img": "./img/coming-soon.png", "title": "", "category": "management", "type": "rpa", "isNew": true, "url": "" },
+    { "id": "mgt05", "img": "./img/coming-soon.png", "title": "", "category": "management", "type": "materials", "isNew": true, "url": "" }
+]

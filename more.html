@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work More</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <script src="./js/main.js" defer></script>
+</head>
+<body>
+    <button class="back-btn"><a id="backBtn" class="back">< Back</a></button>
+    <section class="section">
+        <h1 class="title">-Work More-</h1>
+        <button class="filter-toggle">
+            <img src="./img/filter.png" alt="filter">
+        </button>
+        <!-- ダイアログ（モーダル） -->
+        <div class="filter-dialog" id="filterDialog">
+        <div class="dialog-content">
+            <h2 class="dialog-title">絞り込み/検索</h2>
+            <div class="filter-buttons">
+            <button class="filter-btn web" data-type="hp">
+                <span class="checkmark"></span>
+                <p class="filter-text">ホームページ</p>
+            </button>
+            <button class="filter-btn web" data-type="app">
+                <span class="checkmark"></span>
+                <p class="filter-text">アプリケーション</p>
+            </button>
+            <button class="filter-btn web" data-type="backend">
+                <span class="checkmark"></span>
+                <p class="filter-text">バックエンド</p>
+            </button>
+            <button class="filter-btn web" data-type="design">
+                <span class="checkmark"></span>
+                <p class="filter-text">デザイン</p>
+            </button>
+            <button class="filter-btn mgt" data-type="brd">
+                <span class="checkmark"></span>
+                <p class="filter-text">要件定義所</p>
+            </button>
+            <button class="filter-btn mgt" data-type="ddd">
+                <span class="checkmark"></span>
+                <p class="filter-text">詳細設計書</p>
+            </button>
+            <button class="filter-btn mgt" data-type="excel">
+                <span class="checkmark"></span>
+                <p class="filter-text">Excel</p>
+            </button>
+            <button class="filter-btn mgt" data-type="rpa">
+                <span class="checkmark"></span>
+                <p class="filter-text">RPA</p>
+            </button>
+            <button class="filter-btn mgt" data-type="materials">
+                <span class="checkmark"></span>
+                <p class="filter-text">資料作成</p>
+            </button>
+            </div>
+            <button class="close-dialog">閉じる</button>
+            <button class="search-btn">検索</button>
+        </div>
+        </div>
+        <div class="work-list"></div>
+    </section>
+        <footer class="footer">
+        <p>© 2026 Taka Portfolio</p>
+    </footer>
+</body>
+</html>
