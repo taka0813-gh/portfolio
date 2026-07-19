@@ -1,5 +1,5 @@
 [
-    { "id": "web01", "img": "./img/coming-soon.png", "title": "", "category": "web", "type": "hp", "isNew": true, "url": "https://github.com/" },
+    { "id": "web01", "img": "./img/coming-soon.png", "title": "", "category": "web", "type": "hp", "isNew": true, "url": "http://seitaipseudo.local" },
     { "id": "web02", "img": "./img/coming-soon.png", "title": "", "category": "web", "type": "hp", "isNew": true, "url": "" },
     { "id": "web03", "img": "./img/coming-soon.png", "title": "", "category": "web", "type": "hp", "isNew": true, "url": "" },
     { "id": "web04", "img": "./img/coming-soon.png", "title": "", "category": "web", "type": "hp", "isNew": true, "url": "" },
